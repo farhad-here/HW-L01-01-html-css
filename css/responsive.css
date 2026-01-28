@@ -1,0 +1,979 @@
+/* Mobile */
+@media (min-width:320px) {
+       /* header */
+       .header{
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              text-align: center;
+              padding: 5px 0px 5px 5px;
+              margin: 5px 0 10px 5px;
+       }
+              /* header brand logo */
+       .header .brand{
+              padding: 10px;
+              margin: 3px;
+       }
+       .header .brand img{
+              width: 150px;
+       }
+              /* header menu */
+       .header .header-menu{
+              display: flex;
+              justify-content: space-around;
+              gap: 10px;
+              width: 100vw;
+              padding: 5px 0px 5px 5px;
+              margin-bottom: 25px;
+       }
+       .header .header-menu .menu{
+              padding: 5px;
+              margin: 10px;
+              width: 50%;
+              background: rgba(255, 244, 244, 0.289);  
+              backdrop-filter: blur(20px) saturate(150%);
+              border-radius: 15px;                   
+              border: 1px solid rgba(255, 255, 255, 0.802); 
+       }
+       .header .header-menu .menu ul li{
+              padding: 6px;
+       }
+       .header .header-menu .button-header{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              padding: 5px 0px 5px 5px;
+              margin: 5px 0px 5px 5px;
+              width: 50%;
+       }
+       .header .header-menu .button-header .btn-hdr-tlk{
+              width: 70%;
+              height: 24%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+       }
+       .header .header-menu .button-header .btn-hdr-tlk > button{
+              height: 100%;
+              width: 100%;
+              padding: 15px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              border-radius: 10px;
+              font-size: 14px;
+       }
+       /* Main */
+       .main{
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+       }
+              /* main intro */
+       .main .main-intro{
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              width: 100%;
+              padding: 4px 0px 4px 4px;
+              margin: 3px 0px 3px 3px;
+       }
+       .main .main-intro .introduction{
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+       }
+       .main .main-intro .introduction h1{
+              font-size: 38px;
+              text-align: center;
+              padding: 5px 0px 5px 5px;
+              margin: 5px 0px 5px 5px;
+       }
+       .main .main-intro .introduction h2{
+              font-size: 20px;
+              text-align: center;
+              padding-top: 3px;
+              margin-top: 3px;
+       }
+       .main .main-intro .introduction p{
+              font-size: 25px;
+              padding: 7px 5px 10px 5px;
+              margin:7px 5px 10px 5px;
+              text-align: center;
+              hyphens: auto;
+              width: 75%;
+       }
+       .main .main-intro .btn-introduction{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              gap: 10px;
+              padding: 5px 0px 20px 5px;
+              margin: 5px 0px 20px 5px;
+              width: 90vw;
+              height: 10%;
+       }
+       .hire{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              width: 30%;
+              height: 75px;
+              border-radius: 1rem;
+       }
+       .hire a{
+              text-align: center;
+              padding: 20px;
+              font-size: 18px;
+       }
+       .seeprj {
+             display: flex;
+              justify-content: center;
+              align-items: center;
+              width: 30%;
+              height: 75px;
+              border-radius: 1rem;
+
+       }
+       .seeprj a{
+              text-align: center;
+              padding: 20px;
+              font-size: 18px;
+       }
+       /* main image */
+       .main .main-image {
+              display: flex;
+              justify-content: center;
+              align-items: center;    
+              height: fit-content;
+              width: 90vw;
+              margin: 10px 0px 10px 10px;
+              padding: 10px 0px 10px 10px;
+       }
+       .main .main-image img{
+              height: 120px;
+              width: 120px;
+              border-radius: 50%;
+              overflow: hidden; 
+              background-color: snow;
+              object-fit: cover;
+       }
+       /* footer */
+       .footer{
+              display: flex;
+              justify-content: center;
+              align-items: center;              
+              padding: 10px 0px 10px 10px;
+              margin: 5px 0px 5px 5px;
+       }
+       .footer .ft-scil-icn img{
+              height: 30px;
+              width: 30px;
+              border-radius: 50%;
+              overflow: hidden; 
+              outline: 1px solid #722ce3;
+              background-color: blueviolet;
+              padding: 3px;
+              object-fit: cover;
+       }
+
+}
+/* Ipad & Tablets */
+@media (min-width:481px) {
+       /* header */
+       .header{
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              text-align: center;
+              padding: 5px;
+              margin: 5px 5px 10px 5px;
+       }
+              /* header brand logo */
+       .header .brand{
+              padding: 10px;
+              margin: 3px;
+       }
+       .header .brand img{
+              width: 160px;
+       }
+              /* header menu */
+       .header .header-menu{
+              display: flex;
+              justify-content: space-around;
+              gap: 10px;
+              width: 100vw;
+              padding: 5px;
+              margin-bottom: 25px;
+       }
+       .header .header-menu .menu{
+              padding: 5px;
+              margin: 20px;
+              width: 50%;
+              background: rgba(255, 244, 244, 0.289);  
+              backdrop-filter: blur(20px) saturate(150%);
+              border-radius: 15px;                   
+              border: 1px solid rgba(255, 255, 255, 0.802); 
+       }
+       .header .header-menu .menu ul li{
+              padding: 5px;
+       }
+       .header .header-menu .button-header{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              padding: 5px;
+              margin: 5px;
+              width: 50%;
+       }
+       .header .header-menu .button-header .btn-hdr-tlk{
+              padding: 8px;
+              border-radius: 10px;
+              width: 70%;
+              height: 15%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+       }
+       /* Main */
+       .main{
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+       }
+              /* main intro */
+       .main .main-intro{
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              padding: 4px;
+              margin: 3px;
+       }
+       .main .main-intro .introduction{
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+       }
+       .main .main-intro .introduction h1{
+              font-size: 34.5px;
+              text-align: center;
+              padding: 5px;
+              margin: 5px;
+       }
+       .main .main-intro .introduction h2{
+              font-size: 24px;
+              text-align: center;
+              padding-top: 4px;
+              margin-top: 4px;
+       }
+       .main .main-intro .introduction p{
+              font-size: 25px;
+              padding: 7px 5px 10px 5px;
+              margin:7px 5px 10px 5px;
+              text-align: center;
+              hyphens: auto;
+              width: 80%;
+       }
+       .main .main-intro .btn-introduction{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              gap: 10px;
+              padding: 5px 5px 20px 5px;
+              margin: 5px 5px 20px 5px;
+              width: 100vw;
+              height: 10%;
+       }
+       .hire{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              width: 30%;
+              height: 75px;
+              border-radius: 1rem;
+       }
+       .hire a{
+              text-align: center;
+              padding: 20px;
+              font-size: 18px;
+       }
+       .seeprj {
+             display: flex;
+              justify-content: center;
+              align-items: center;
+              width: 30%;
+              height: 75px;
+              border-radius: 1rem;
+
+       }
+       .seeprj a{
+              text-align: center;
+              padding: 20px;
+              font-size: 18px;
+       }
+       .main .main-image {
+              display: flex;
+              justify-content: center;
+              align-items: center;    
+              height: fit-content;
+              width: 100%;
+              margin: 10px;
+              padding: 10px;
+       }
+       .main .main-image img{
+              
+              height: 150px;
+              width: 150px;
+              border-radius: 50%;
+              overflow: hidden; 
+              background-color: snow;
+              object-fit: cover;
+       }
+       /* footer */
+       .footer{
+              display: flex;
+              justify-content: center;
+              align-items: center;              
+              padding: 10px;
+              margin: 5px;
+       }
+       .footer .ft-scil-icn img{
+              height: 30px;
+              width: 30px;
+              border-radius: 50%;
+              overflow: hidden; 
+              outline: 1px solid #722ce3;
+              background-color: blueviolet;
+              padding: 3px;
+              object-fit: cover;
+              transition: outline 0.5s, background-color 0.2s;
+
+       }
+
+}
+/* small-screen & laptops */
+@media (min-width:769px) {
+       /* header */
+       .header{
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              padding: 5px;
+              margin: 5px 5px 10px 5px;
+              gap: 5px;
+       }
+              /* header brand logo */
+       .header .brand{
+              padding: 0;
+              margin: 0;
+              height: fit-content;
+              width: 20%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+       }
+       .header .brand img{
+              width: 140px;
+              height: 40px;
+       }
+              /* header menu */
+       .header .header-menu{
+              display: flex;
+              flex-direction: row;
+              justify-content: space-around;
+              gap: 50px;
+              padding: 0;
+              margin-bottom: 0;
+              height: 100%;
+       }
+       .header .header-menu .menu{
+              padding: 5px 5px 5px 0;
+              margin: 20px 20px 20px 10px;
+              width: fit-content;
+              background: none;  
+              backdrop-filter: none;
+              border-radius: none;                   
+              border: none; 
+       }
+       .header .header-menu .menu ul{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+       }
+       .header .header-menu .menu ul li{
+              padding: 10px;
+              font-size: 15px;
+       }
+       .header .header-menu .button-header{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              padding: 5px;
+              margin: 5px;
+              width: 50%;
+       }
+       .header .header-menu .button-header .btn-hdr-tlk{
+              padding: 8px;
+              border-radius: 10px;
+              width: 80%;
+              height: 50%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+       }
+       .header .header-menu .button-header .btn-hdr-tlk > button{
+              font-size: 20px;
+       }
+       /* Main */
+       .main{
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center;
+              min-width: 100vw;
+              height: 55vh;
+
+       }
+              /* main intro */
+       .main .main-intro{
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              width: 80%;
+              padding: 5px;
+              margin: 5px;
+       }
+       .main .main-intro .introduction{
+              display: flex;
+              flex-direction: column;
+              justify-content: start;
+              align-items: start;
+       }
+       .main .main-intro .introduction h1{
+              font-size: 45px;
+              text-align: start;
+              padding: 5px;
+              margin: 5px;
+             
+       }
+       .main .main-intro .introduction h2{
+              font-size: 30px;
+              padding: 5px;
+              margin: 5px;
+       }
+       .main .main-intro .introduction p{
+              font-size: 25px;
+              padding: 2px 5px 10px 5px;
+              margin:2px 5px 10px 5px;
+              text-align: start;
+              hyphens: auto;
+              width: 80%;
+       }
+       .main .main-intro .btn-introduction{
+              display: flex;
+              justify-content: start;
+              align-items: start;
+              gap: 10px;
+              padding: 5px;
+              margin: 5px;
+              width: 100%;
+              height: fit-content;
+       }
+       .hire{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              width: 120px;
+              height: 40px;
+              padding: 5px;
+              border-radius: 10px;
+       }
+       .hire a{
+              text-align: center;
+              padding: 20px;
+              font-size: 17px;
+       }
+       .seeprj {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              width: 120px;
+              height: 40px;
+              padding: 5px;
+              border-radius: 10px;
+
+       }
+       .seeprj a{
+              text-align: center;
+              padding: 20px;
+              font-size: 17px;
+       }
+       .main .main-image {
+              display: flex;
+              justify-content: center;
+              align-items: center;    
+              height: fit-content;
+              width: 45%;
+              margin: 10px;
+              padding: 10px;
+       }
+       .main .main-image img{
+              
+              height: 300px;
+              width: 300px;
+              border-radius: 50%;
+              overflow: hidden; 
+              background-color: snow;
+              object-fit: cover;
+       }
+       /* footer */
+       .footer{
+              display: flex;
+              justify-content: start;
+              align-items: start;              
+              padding: 10px;
+              margin: 10px;
+       }
+
+       .footer .ft-scil-icn img{
+              height: 30px;
+              width: 30px;
+              border-radius: 50%;
+              overflow: hidden; 
+              outline: 1px solid #722ce3;
+              outline-offset: 1px;
+              background-color: blueviolet;
+              padding: 4px;
+              margin: 3px;
+              object-fit: cover;
+              transition: outline 0.5s, background-color 0.2s;
+       }
+
+}
+/* desktop */
+@media (min-width:1025px) {
+       /* header */
+       .header{
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              padding: 5px;
+              margin: 5px 5px 10px 5px;
+              gap: 5px;
+       }
+              /* header brand logo */
+       .header .brand{
+              padding: 0;
+              margin: 0;
+              height: fit-content;
+              width: 20%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+       }
+       .header .brand img{
+              width: 140px;
+              height: 40px;
+       }
+              /* header menu */
+       .header .header-menu{
+              display: flex;
+              flex-direction: row;
+              justify-content: space-around;
+              gap: 50px;
+              padding: 0;
+              margin-bottom: 0;
+              height: 100%;
+       }
+       .header .header-menu .menu{
+              padding: 5px 5px 5px 0;
+              margin: 20px 20px 20px 10px;
+              width: fit-content;
+              background: none;  
+              backdrop-filter: none;
+              border-radius: none;                   
+              border: none; 
+       }
+       .header .header-menu .menu ul{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+       }
+       .header .header-menu .menu ul li{
+              padding: 10px;
+              font-size: 20px;
+       }
+       .header .header-menu .menu ul li > a{
+              font-weight: lighter !important;
+              color: #565857 !important;
+              transition: color 0.2s;
+       }
+       .header .header-menu .menu ul li a:hover{
+       color: rgba(8, 170, 191, 0.791) !important;
+       }
+       .header .header-menu .button-header{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              padding: 5px;
+              margin: 5px;
+              width: 50%;
+       }
+       .header .header-menu .button-header .btn-hdr-tlk{
+              padding: 8px;
+              border-radius: 10px;
+              width: 38%;
+              height: 59%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+       }
+       .header .header-menu .button-header .btn-hdr-tlk > button{
+              font-size: 20px;
+       }
+       /* Main */
+       .main{
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center;
+              min-width: 100vw;
+              height: 70vh;
+
+       }
+              /* main intro */
+       .main .main-intro{
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              width: 80%;
+              padding: 10px;
+              margin: 10px;
+       }
+       .main .main-intro .introduction{
+              display: flex;
+              flex-direction: column;
+              justify-content: start;
+              align-items: start;
+       }
+       .main .main-intro .introduction h1{
+              font-size: 33px;
+              text-align: start;
+              padding: 5px;
+              margin: 5px;
+              font-weight: bold !important;
+       }
+       .main .main-intro .introduction h2{
+              font-size: 25px;
+              padding: 5px;
+              margin: 5px;
+              font-weight: bold !important;
+       }
+       .main .main-intro .introduction p{
+              font-size: 25px;
+              padding: 2px 5px 10px 5px;
+              margin:2px 5px 10px 5px;
+              text-align: start;
+              hyphens: auto;
+              width: 80%;
+       }
+       .main .main-intro .btn-introduction{
+              display: flex;
+              justify-content: start;
+              align-items: start;
+              gap: 40px;
+              padding: 5px;
+              margin: 5px;
+              width: 100%;
+              height: fit-content;
+       }
+       .hire{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              width: 130px;
+              height: 40px;
+              padding: 5px;
+              border-radius: 10px;
+       }
+       .hire a{
+              text-align: center;
+              padding: 20px;
+              font-size: 17px;
+       }
+       .seeprj {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              width: 130px;
+              height: 40px;
+              padding: 5px;
+              border-radius: 10px;
+
+       }
+       .seeprj a{
+              text-align: center;
+              padding: 20px;
+              font-size: 17px;
+       }
+       .main .main-image {
+              display: flex;
+              justify-content: center;
+              align-items: center;    
+              height: fit-content;
+              width: 45%;
+              margin: 10px;
+              padding: 10px;
+       }
+       .main .main-image img{
+              
+              height: 500px;
+              width: 500px;
+              border-radius: 50%;
+              overflow: hidden; 
+              background-color: #e6e7e9;
+              object-fit: cover;
+       }
+       /* footer */
+       .footer{
+              display: flex;
+              justify-content: start;
+              align-items: start;              
+              padding: 10px;
+              margin: 10px;
+       }
+
+       .footer .ft-scil-icn img{
+              height: 30px;
+              width: 30px;
+              border-radius: 50%;
+              overflow: hidden; 
+              outline: 1px solid #722ce3;
+              outline-offset: 1px;
+              background-color: blueviolet;
+              padding: 4px;
+              margin: 3px;
+              object-fit: cover;
+              transition: outline 0.5s, background-color 0.2s;
+       }
+
+}
+@media (min-width:1400px) {
+       /* header */
+       .header{
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              padding: 5px;
+              margin: 5px 5px 10px 5px;
+              gap: 5px;
+       }
+              /* header brand logo */
+       .header .brand{
+              padding: 0;
+              margin: 0;
+              height: fit-content;
+              width: 20%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+       }
+       .header .brand img{
+              width: 140px;
+              height: 40px;
+       }
+              /* header menu */
+       .header .header-menu{
+              display: flex;
+              flex-direction: row;
+              justify-content: space-around;
+              gap: calc(100vh/3);
+              padding: 0;
+              margin-bottom: 0;
+              height: 100%;
+       }
+       .header .header-menu .menu{
+              padding: 5px 5px 5px 0;
+              margin: 20px 20px 20px 10px;
+              width: calc((100vw - 440px)/2);
+              background: none;  
+              backdrop-filter: none;
+              border-radius: none;                   
+              border: none; 
+       }
+       .header .header-menu .menu ul{
+              display: flex;
+              justify-content: start;
+              align-items: start;
+       }
+       .header .header-menu .menu ul li{
+              padding: 10px;
+              font-size: 20px;
+       }
+       .header .header-menu .menu ul li > a{
+              font-weight: lighter !important;
+              color: #565857 !important;
+              transition: color 0.2s;
+       }
+       .header .header-menu .menu ul li a:hover{
+       color: rgba(8, 170, 191, 0.791) !important;
+       }
+       .header .header-menu .button-header{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              padding: 5px;
+              margin: 5px;
+              width: 400px;
+       }
+       .header .header-menu .button-header .btn-hdr-tlk{
+              padding: 8px;
+              border-radius: 10px;
+              width: 38%;
+              height: 59%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+       }
+       .header .header-menu .button-header .btn-hdr-tlk > button{
+              font-size: 20px;
+       }
+       /* Main */
+       .main{
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+              align-items: none;
+              min-width: 100vw;
+              height: 80vh;
+
+       }
+              /* main intro */
+       .main .main-intro{
+              display: flex;
+              flex-direction: column;
+              justify-content: flex-start;
+              align-items: flex-start;
+              width: 80%;
+              padding: 10px;
+              margin: 10px;
+       }
+       .main .main-intro .introduction{
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: start;
+              height: 520px;
+       }
+       .main .main-intro .introduction h1{
+              font-size: 58px;
+              text-align: start;
+              padding: 5px;
+              margin: 5px;
+              font-weight: bold !important;
+       }
+       .main .main-intro .introduction h2{
+              font-size: 40px;
+              padding: 5px;
+              margin: 5px;
+              font-weight: 600 !important;
+       }
+       .main .main-intro .introduction p{
+              font-size: 40px;
+              padding: 2px 5px 10px 5px;
+              margin:2px 5px 10px 5px;
+              text-align: start;
+              hyphens: auto;
+              width: fit-content;
+       }
+       .main .main-intro .btn-introduction{
+              display: flex;
+              justify-content: start;
+              align-items: start;
+              gap: 50px;
+              padding: 5px;
+              margin: 5px;
+              width: 100%;
+              height: fit-content;
+       }
+       .hire{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              width: 150px;
+              height: 40px;
+              padding: 5px;
+              border-radius: 10px;
+       }
+       .hire a{
+              text-align: center;
+              padding: 20px;
+              font-size: 17px;
+       }
+       .seeprj {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              width: 150px;
+              height: 40px;
+              padding: 5px;
+              border-radius: 10px;
+
+       }
+       .seeprj a{
+              text-align: center;
+              padding: 20px;
+              font-size: 17px;
+       }
+       .main .main-image {
+              display: flex;
+              justify-content: center;
+              align-items: center;    
+              height: fit-content;
+              width: 45%;
+              margin: 10px;
+              padding: 10px;
+       }
+       .main .main-image img{
+              
+              height: 500px;
+              width: 500px;
+              border-radius: 50%;
+              overflow: hidden; 
+              background-color: #e6e7e9;
+              object-fit: cover;
+       }
+       /* footer */
+       .footer{
+              display: flex;
+              justify-content: start;
+              align-items: start;              
+              padding: 10px;
+              margin: 10px;
+       }
+
+       .footer .ft-scil-icn img{
+              height: 40px;
+              width: 40px;
+              border-radius: 50%;
+              overflow: hidden; 
+              outline: 1px solid #722ce3;
+              outline-offset: 1px;
+              background-color: blueviolet;
+              padding: 4px;
+              margin: 3px;
+              object-fit: cover;
+              transition: outline 0.5s, background-color 0.2s;
+       }
+
+}

@@ -1,0 +1,114 @@
+/* Fonts */
+@font-face {
+       font-family: RobotoSlab-Medium;
+       src: url('../assets/fonts/RobotoSlab-Medium.ttf');
+}
+@font-face {
+       font-family: Merriweather_24pt-Regular;
+       src: url('../assets/fonts/Merriweather_24pt-Regular.ttf');
+}
+
+@font-face {
+       font-family: GoogleSans-SemiBold;
+       src: url('../assets/fonts/GoogleSans_17pt-SemiBold.ttf');
+}
+/* ------------------------------------------------- */
+/* style for all */
+*{
+       margin: 0;
+       padding: 0;
+}
+/* style for body */
+body{
+       background: #e6e7e9;
+       height: fit-content;
+}
+
+/* style all link tags */
+a{
+       text-decoration: none;
+}
+/* ------------------------------------------------- */
+/* style for header */
+       /* for menu */
+.header .header-menu .menu ul{
+              list-style: none;
+       }
+       /* style for link tags */
+.header .header-menu .menu ul li a{
+       color: rgb(0, 0, 0);
+       font-family:RobotoSlab-Medium;
+}
+.header .header-menu .menu ul li a:hover{
+       color: rgb(2, 226, 255);
+}
+
+.header .header-menu .button-header .btn-hdr-tlk button{
+              background-color: #7c2ae8;
+              color: floralwhite;
+              font-family: Georgia, 'Times New Roman', Times, serif;
+              font-weight: lighter;
+              cursor: pointer; 
+              border: none;
+}
+.header .header-menu .button-header .btn-hdr-tlk button:hover{
+              color: #e0f7fa;
+              box-shadow: 0 0 1px 1px #7445cc;
+              border: none;    
+}
+
+/* style for main */
+.main .main-intro .introduction{
+       color:#525252;
+}
+.main .main-intro .introduction h1{
+       font-weight: 600;
+       font-family: Merriweather_24pt-Regular;
+}
+.main .main-intro .introduction h1 span{
+       color:#7f22e3 ;
+}
+.main .main-intro .introduction h2{
+       font-weight: 300;
+       font-family: GoogleSans-SemiBold;
+       
+}
+.hire{
+       background-color:#7b2ae8 ;
+      
+}
+.hire a{
+        color: aliceblue;
+      
+}
+.hire:hover{
+       background-color:white;
+      
+}
+.hire a:hover{
+        color: rgb(84, 1, 84);
+      
+}
+.seeprj{
+       border:1px solid #7b2ae8 ;
+      
+}
+.seeprj a{
+        color: #7445cc;
+      
+}
+.seeprj:hover{
+       background-color: seashell ;
+       border: 1px solid wheat;
+       
+}
+.seeprj a:hover{
+        color: rgb(84, 1, 84);
+      
+}
+/* style for footer */
+.footer .ft-scil-icn img:hover{
+       background-color: #ffb300;
+       outline: 1px solid yellow;
+       
+}
